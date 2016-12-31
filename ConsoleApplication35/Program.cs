@@ -1,15 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApplication35
+class Program
 {
-	class Program
+	static void Main()
 	{
-		static void Main(string[] args)
+		for (int i = 0; i < 5; i++)
 		{
+			UseFinally.GenException(i);
+			Console.WriteLine();
 		}
 	}
 }
